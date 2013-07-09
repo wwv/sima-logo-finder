@@ -9,14 +9,16 @@
 
 PS:
 
+- система должна работать по lunux (по win не обязательно), php 5.3+
 - переименуйте и отредактируйте test/config/env.php.sample чтобы запустить приложение
 - чтобы тесты работали нужно  поставить phpunit:
 
-	sudo pear install --force --alldeps phpunit/PHPUnit
-	&& pear install phpunit/dbUnit
-	&& pear install phpunit/PHPUnit_Story
-	&& pear install phpunit/PHPUnit_Selenium
-
+````
+sudo pear install --force --alldeps phpunit/PHPUnit &&
+pear install phpunit/dbUnit &&
+pear install phpunit/PHPUnit_Story &&
+pear install phpunit/PHPUnit_Selenium
+````
 
 
 
